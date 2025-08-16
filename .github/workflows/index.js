@@ -3,9 +3,9 @@ const express = require('express')
 
 const bot = mineflayer.createBot({
   host: 'xdoblox1111.aternos.me', // IP
-  port: 25565,                    // Port (غيره حسب سيرفرك)
+  port: 51584,                    // Port (غيره حسب سيرفرك)
   username: 'AFK_Bot',            // Bot username
-  version: '1.21.1'               // Your server version
+  version: '1.21.8'               // Your server version
 })
 
 const PASSWORD = '123456' // change this to your password
@@ -39,3 +39,4 @@ setInterval(antiAFK, 60000)
 const app = express()
 app.get('/', (req, res) => res.send('Bot is alive!'))
 app.listen(3000, () => console.log('🌐 Web server running'))
+
